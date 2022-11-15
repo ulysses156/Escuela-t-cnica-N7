@@ -1,0 +1,17 @@
+p{
+    color: white;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+th{
+    text-align: center;
+    text-shadow: 4px ;
+}
+td{
+    text-align: center;
+    text-shadow: 4px ;
+}

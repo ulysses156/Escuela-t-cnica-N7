@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+	Technology by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dudas frecuentes et7</title>
+	<style>
+		#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+	</style>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- COLORS -->
+	<link rel="stylesheet" href="css/blue.css" title="blue"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+    <link rel="alternate stylesheet" href="css/green.css" title="green">
+	<link rel="alternate stylesheet" href="css/orange.css" title="orange">
+	<link rel="alternate stylesheet" href="css/purple.css" title="purple">
+	<link rel="alternate stylesheet" href="css/slate.css" title="slate">
+	<link rel="alternate stylesheet" href="css/yellow.css" title="yellow">
+	<link rel="alternate stylesheet" href="css/red.css" title="red">
+	<link rel="alternate stylesheet" href="css/blue-munsell.css" title="blue-munsell">
+
+	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+	<link rel="stylesheet" href="css/demo.css">
+
+
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.js"></script>
+    <![endif]-->
+	
+</head>
+<body>
+
+	<div id="st-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div><!-- /#st-preloader -->
+
+	<section id="home-page">
+		<div class="container-fluid home-bg">
+			<div class="row">
+				<div class="col-md-12 text-center home-page">
+					<div class="main-logo">
+						<a href="index.html">Escuela Tecnica Nº7 Manuel Sadosky</a>
+					</div>
+					<h1>Dudas Frecuentes</h1>
+					<h1>Nuestro colegio te quiere dar la facilidad de resolver tus dudas sin tener que moverte de tu casa.
+					</h1>
+					<div class="container">
+						
+					<p></p>
+					<div id="subscribe" class="form-group subscribe-area">
+						<h1>DUDAS FRECUENTES</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Como podemos ayudarte?" title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">Inscripcion Para Nuevos Alumnos</a></li>
+  <li><a href="#">¿Puedo inscribir a mis hijos, aunque sean de otro pais?</a></li>
+  <li><a href="#">¿cuantos años son en una escuela tecnica?</a></li>
+  <li><a href="#">¿que materias tecnicas ofrece la escuela tecnica Nº7?</a></li>
+  <li><a href="#">Quiero conocer a los profesores de esta institucion.</a></li>
+  <li><a href="#">mi hijo tiene problemas en el colegio.</a></li>
+  <li><a href="#">quiero cambiar el tutor de mi hijo</a></li>
+  <li><a href="#">mi hijo debe materias del 2020</a></li>
+  <li><a href="#">Mi hijo debe materias y nesesita ayuda.</a></li>
+  <li><a href="#">¿Para que año ahi vacantes?</a></li>
+  <li><a href="#">¿que es la copa de leche?</a></li>
+  <li><a href="#">¿Quien es la maxima autoridad actualmente?</a></li>
+  <li><a href="#">¿cuanto es la Coperadora?</a></li>
+  <li><a href="#">¿que beneficios tiene que mi hijo estudie al en una escuela tecnica?</a></li>
+  <li><a href="#">¿Como es el sistema de educacion en su institucion?</a></li>
+  <li><a href="#">¿cuantas horas deben permanecer los chicos en el colegio?</a></li>
+  <li><a href="#">¿Quien es Patricia Chiarini?</a></li>
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+						<br>
+						<label for="st-email" class="st-subscribe-message"></label>
+					</div>
+                    <div class="row">
+					<div class="col-sm-12 social-shear text-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div><!-- /.social-shear -->
+                    </div>    
+				</div>
+			</div>
+		</div>
+	</section><!-- /#home-page -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+				</div>
+			</div>
+		</div>
+	</footer><!-- /.footer -->
+	
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
+	<script type="text/javascript" src="js/countdown.js"></script><!-- Countdown -->
+	<script type="text/javascript" src="js/jquery.ajaxchimp.js"></script><!-- ajaxchimp -->
+	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
+
+	<!-- =========================================================
+	     STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
+	============================================================== -->
+	<script type="text/javascript" src="js/styleswitcher.js"></script>
+	<script type="text/javascript" src="js/demo.js"></script>
+	<div class="demo-style-switch" id="switch-style">
+		<a id="toggle-switcher" class="switch-button"><i class="fa fa-cog fa-spin fa-fw"></i></a>
+		<div class="switched-options">				
+			<div class="config-title">
+				Colors :
+			</div>
+			<ul class="styles">
+				<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" title="Blue">
+				<div class="blue">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('purple'); return false;" title="Purple">
+				<div class="purple">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('blue-munsell'); return false;" title="Blue Munsell">
+				<div class="blue-munsell">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" title="Orange">
+				<div class="orange">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('slate'); return false;" title="Slate">
+				<div class="slate">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" title="Green">
+				<div class="green">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" title="Yellow">
+				<div class="yellow">
+				</div>
+				</a></li>
+				
+				<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" title="Red">
+				<div class="red">
+				</div>
+				</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	
+</body>
+</html>
