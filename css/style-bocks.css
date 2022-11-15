@@ -1,0 +1,10 @@
+.libro{
+    height: 350px;
+    width: 300px;
+}
+.libro-infor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
