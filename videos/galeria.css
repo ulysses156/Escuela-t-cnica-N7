@@ -1,0 +1,22 @@
+.color{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: o 4px 8px rgb(0, 0, 0);
+    float: center;
+    width: 350px;
+    text-align: center;
+
+}
+.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px  gray;
+    padding: 10px;
+}
+video{
+    filter: grayscale(100%);
+
+
+}
+button {
+    cursor: pointer;  
+}
